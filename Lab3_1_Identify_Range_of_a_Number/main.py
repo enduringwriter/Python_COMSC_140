@@ -12,6 +12,9 @@ def main():
     else:
         range = 2
 
+    # alternative solution
+    # range = (1, 2, 3)[(number >=50) + (number >= 100)]
+
     print(f'Range is {range}')
     ########################################
     # Do not delete the return statement
