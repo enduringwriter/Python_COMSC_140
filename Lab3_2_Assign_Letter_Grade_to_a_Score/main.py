@@ -18,9 +18,6 @@ def main():
     
     print(f'Score: {score} \t Grade: {grade}')
 
-    ########################################
-    # Do not delete the return statement
-    ########################################
     return grade
 
 if __name__ == '__main__':

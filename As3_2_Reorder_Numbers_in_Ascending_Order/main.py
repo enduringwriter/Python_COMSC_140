@@ -21,9 +21,7 @@ def main():
         minval, median, maxval = num3, num2, num1
     
     print(minval, median, maxval)
-    ########################################
-    # Do not delete the return statement
-    ########################################
+
     return minval, median, maxval
 
 

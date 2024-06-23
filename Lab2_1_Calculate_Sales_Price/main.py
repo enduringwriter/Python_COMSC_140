@@ -14,9 +14,6 @@ def main():
     print(f'Discount Amount: {discount_amount}')
     print(f'Final Price: {final_price}')
 
-   ##################################################
-   # Do not delete the return statement
-   ##################################################
     return original_price, discount_amount, final_price
 
 

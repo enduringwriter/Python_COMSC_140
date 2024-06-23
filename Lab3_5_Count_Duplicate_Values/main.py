@@ -16,9 +16,6 @@ def main():
 
     print(f'The number of duplicate values is: {duplication}')
 
-    ########################################
-    # Do not delete the return statement
-    ########################################
     return duplication
 
 

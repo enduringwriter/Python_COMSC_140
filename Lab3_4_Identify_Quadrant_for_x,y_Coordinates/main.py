@@ -22,9 +22,7 @@ def main():
         quadrant = 'X-axis'
 
     print(f'Coordinates (x,y): ({x},{y}).    Quadrant: {quadrant}.')
-    ########################################
-    # Do not delete the return statement
-    ########################################
+
     return quadrant
 
 

@@ -17,9 +17,6 @@ def main():
 
     print(f'The three numbers are: {number1}, {number2}, {number3}. The smallest number is: {min_value}')
 
-    ########################################
-    # Do not delete the return statement
-    ########################################
     return number1, number2, number3, min_value
 
 

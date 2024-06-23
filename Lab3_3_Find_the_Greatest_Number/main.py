@@ -15,9 +15,7 @@ def main():
         maxnum = num3
 
     print(f'The greatest number is {maxnum}')
-    ########################################
-    # Do not delete the return statement
-    ########################################
+
     return maxnum
 
 if __name__ == '__main__':

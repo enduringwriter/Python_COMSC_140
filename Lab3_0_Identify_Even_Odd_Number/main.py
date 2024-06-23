@@ -14,9 +14,6 @@ def main():
     else:
         print(f'The value {number} is an even number')
 
-    ########################################
-    # Do not delete the return statement
-    ########################################
     return result
 
 
