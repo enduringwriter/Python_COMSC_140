@@ -6,6 +6,13 @@ def main():
     Email address must include at least one '.' after '@'.
     """
 
+    # Difference between find() and index()
+    #   index(): Raises a ValueError if the substring is not found.
+    #   find(): Returns -1 if the substring is not found.
+    # When to Use Which
+    #   Use index() if you want the program to raise an error when the substring is not found.
+    #   Use find() if you prefer to handle the absence of the substring more gracefully by checking if the returned index is -1.
+    
     email = input('Enter your email: ')
     
     count_at_symbol = email.count('@')
