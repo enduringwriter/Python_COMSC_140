@@ -11,9 +11,11 @@ def main():
             print('That is not an integer. Please try again.')
             continue
         else:
-            print(number)
+            # print(number)  # successfully parsed as an integer, can print here
             break
-        
+
+    print(number)  # successfully parsed as an integer, can print here
+
     return number
 
 

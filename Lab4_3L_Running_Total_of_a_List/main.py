@@ -7,7 +7,7 @@ def main():
     total = 0
     numbers = [0] * 5
     
-    for i in range(5):
+    for i in range(len(numbers)):
         number = int(input("Enter a number: "))
         numbers[i] = number
         total += number
