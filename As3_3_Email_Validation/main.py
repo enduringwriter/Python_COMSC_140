@@ -21,13 +21,15 @@ def main():
     count_dot_symbol_after_at = email_sliced_after_at.count('.')
 
     if not(5 < len(email) < 30) or count_at_symbol != 1 or count_dot_symbol_after_at != 1 \
-        or email[0] not in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ':
+        or not email[0].isalpha:
         result = False
     else: 
         result = True
     
     print(f'Email address entered: {email}. Email address validity: {result}.')
 
+    # or email[0] not in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    
     return result
 
 
