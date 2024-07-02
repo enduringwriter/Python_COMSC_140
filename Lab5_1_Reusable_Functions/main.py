@@ -1,20 +1,17 @@
-def getinput():
-    # ******************************
-    # Make your Code
-    # ******************************
+"""
+Learn to define usable functions in Python.
+"""
 
+def getinput():
+    userinput = int(input('Enter number: '))
+    return userinput
 
 def getsum(v1, v2):
-    # ******************************
-    # Make your Code
-    # ******************************
-
+    total = v1 + v2
+    return total
 
 def printval(v1, v2, total):
-    # ******************************
-    # Make your Code
-    # ******************************
-
+    print(f'First value: {v1}. Second value: {v2}. Total value: {total}')
 
 def main():
     userval1 = getinput()
