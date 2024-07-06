@@ -2,6 +2,9 @@
 This code demonstrates different mothods of passing arguments to functions,
 specifically keyword arguments, dictionary unpacking, and the formatting of output.
 
+**kwargs collects keyword arguments into a dictionary.
+** expects a dictionary, and using it with a string will result in an error.
+
 Diciontary Unpacking:
 When calling the function, the '**scores' syntax is used to unpack the dictionary.
 This passes the key-value pairs in the dictionary as individual keyword arguments.
