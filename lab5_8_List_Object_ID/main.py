@@ -9,6 +9,16 @@ to all mutable objects .e.g lists, dictionaries.
 It also shows how changes to the list within a function affect the 
 original list due to Python's handling of mutable objects such as lists.
 
+Advantage of mutable IDs
+When a function is called with arguments in Python,
+it receives references to the actual objects, not copies of them.
+This distinction between passing references and copying objects
+is important for both performance and memory usage. 
+
+Passing References: When passing an object (e.g. list, dictionary, or custom object) to a function,
+the function gets a reference to the original object.
+This means that the function can modify the object without creating a new one.
+
 'ID' - Immutable
 The ID of an object changes when an immutable variable is modifed e.g.
 a = 10
