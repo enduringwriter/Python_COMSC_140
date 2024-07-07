@@ -1,5 +1,10 @@
 def shiftN(stringvalue, direction, N):
-
+    """
+    Shift the binary string value by N bits to the left or right.
+    Add padding 0s to the right or left based on the direction.
+    direction of 0 = shift left, 1 = shift right.
+    """
+    
     if direction == 0:  # shift left
         stringvalue = stringvalue[N:] + '0' * N
     elif direction == 1: # shift right
