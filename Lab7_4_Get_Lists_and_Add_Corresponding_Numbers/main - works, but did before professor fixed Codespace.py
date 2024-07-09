@@ -16,12 +16,9 @@ def getInput():
     Prompt the user to enter multiple values in a single line.
     Then split the values and convert them into a list of integers, and return it.
     """
-    # comment out the list1, list2, and return list1, list2
-    # b/c main() calls getInput() and b/c this was written before Codespaces worked.
-    # list1 = list(map(int, input("Enter numbers in a single entry for List1. When done, press enter. ").split()))
-    # list2 = list(map(int, input("Enter numbers in a single entry for List1. When done, press enter. ").split()))
-    # return list1, list2
-    return list(map(int, input("Enter a list of numbers separated by a space in a single entry. When done, press enter. ").split()))
+    list1 = list(map(int, input("Enter numbers in a single entry for List1. When done, press enter. ").split()))
+    list2 = list(map(int, input("Enter numbers in a single entry for List1. When done, press enter. ").split()))
+    return list1, list2
 
 
 def listSum(list1, list2):
@@ -46,13 +43,10 @@ def listSum(list1, list2):
     # sum_list = list(map(operator.add, list1, list2))
     return sum_list
 
-
 def main():
-    list1 = getInput()
-    list2 = getInput()
+    list1, list2 = getInput()
     ret = listSum(list1, list2)
-    print(f'The result values are: {ret}')
-
+    print(f'The sum of the two lists is: {ret}')
 
 if __name__ == '__main__':
     main()
