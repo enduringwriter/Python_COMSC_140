@@ -15,6 +15,16 @@ def insertOne(numbers, val):
             numbers.append(val)
             break
 
+    # alternative solution
+    # for i, n in enumerate(numbers):
+    #     if val < n:
+    #         numbers.insert(i, val)
+    #         break
+    #     if val > max(numbers):
+    #         numbers.append(val)
+    #         break
+    # # else:
+    # #     numbers.append(val)
 
 def main():
     numbers = [5, 20, 30, 35, 50]
