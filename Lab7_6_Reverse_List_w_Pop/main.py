@@ -15,6 +15,12 @@ def makeReverse(numbers):
         new_numbers.insert(0, n)
     return new_numbers
 
+    # using while loop
+    # reversed_numbers = []
+    # while numbers:
+    #     reversed_numbers.append(numbers.pop())
+    # return reversed_numbers
+
 
 def main():
     numbers = getInput()
